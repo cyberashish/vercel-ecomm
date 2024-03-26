@@ -4,7 +4,7 @@
       "src": "index.js",
       "use": "@vercel/node"
     },
-    
+
     {
       "src": "build/**",
       "use": "@vercel/static"
@@ -19,11 +19,6 @@
     {
       "src": "/",
       "dest": "build/index.html"
-    },
-
-    {
-      "src": "/(.+)",
-      "dest": "build/$1"
     }
   ]
 }
