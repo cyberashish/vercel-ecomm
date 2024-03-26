@@ -36,4 +36,8 @@ server.use("/api",productRouter.router);
 
 
 
+
+
+
+
 server.listen(process.env.PORT);
